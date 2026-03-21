@@ -1,0 +1,49 @@
+STANDARD OPERATING PROCEDURE
+Title: Customer Complaint Handling Process
+Department: Customer Service
+Version: 2.1
+
+1. PURPOSE
+This SOP establishes a standardized process for receiving, documenting,
+investigating, and resolving customer complaints to ensure consistent
+service quality and customer satisfaction.
+
+2. SCOPE
+Applies to all customer service representatives, team leads, and managers
+handling complaints via phone, email, or in-person.
+
+3. RESPONSIBILITIES
+- Customer Service Rep: First contact, logs complaint in CRM
+- Team Lead: Reviews unresolved complaints after 24 hours
+- Manager: Handles escalations and approves refunds above $500
+
+4. PROCEDURE
+
+Step 1: Receive and Acknowledge
+Greet professionally. Listen without interrupting. Acknowledge with empathy.
+
+Step 2: Log the Complaint
+Enter into CRM within 5 minutes: customer name, contact info, date/time,
+nature of issue, product involved, severity (Low/Medium/High).
+
+Step 3: Investigate
+Review account history. Consult billing/logistics/tech if needed.
+Timeframes: High = 4 hours, Medium = 24 hours, Low = 48 hours.
+
+Step 4: Resolve
+Offer replacement, refund, or credit. CSR approves up to $500.
+Above $500 requires manager sign-off. Confirm resolution with customer.
+
+Step 5: Document Resolution
+Update CRM. Mark ticket Resolved only after customer confirms satisfaction.
+
+Step 6: Follow Up
+Call or email within 48 hours to confirm continued satisfaction. Log in CRM.
+
+5. ESCALATION
+Unresolved complaints past deadline escalate to Team Lead immediately.
+Repeat complaints within 30 days go to manager.
+
+6. COMPLIANCE
+Records retained for 3 years minimum. Data handled per Privacy Policy.
+
