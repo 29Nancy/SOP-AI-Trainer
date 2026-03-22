@@ -3,6 +3,15 @@
 > Upload any Standard Operating Procedure document and instantly generate
 > role-specific training content using AI.
 
+## 🧩 Problem
+
+Standard Operating Procedures (SOPs) are widely used across organizations, but they are often:
+
+Long and unstructured
+Difficult to convert into actionable training
+Hard to personalize for different roles (interns, employees, managers)
+
+There is no simple system to transform static SOPs into interactive, role-specific training content.
 
 ## 🎯 What It Does
 
@@ -15,6 +24,42 @@ Takes any SOP document (PDF or TXT) as input and generates:
 | ❓ Quiz | MCQ, True/False and Short Answer questions with answers |
 
 ---
+
+## 🧠 Prompt Engineering Strategy
+Designed separate prompts per task instead of single monolithic prompt
+Used role + detail conditioning to control output style
+Enforced structured outputs to reduce hallucination
+Iteratively refined prompts to improve:
+clarity
+consistency
+instructional quality
+
+
+## 🔁 Iterations
+V1: Basic SOP → summary
+V2: Added structured training steps
+V3: Introduced quiz generation
+V4: Improved prompt reliability and output formatting
+V5: Added role-based and detail-level control
+
+## ⚙️ System Architecture
+
+Pipeline:
+
+Input Processing
+Accepts PDF / TXT
+Extracts clean text using PyPDF2
+Context Handling
+Trims and structures input for LLM constraints
+Maintains key sections for semantic consistency
+LLM Generation (Groq – LLaMA 3.3 70B)
+Separate prompt pipelines for:
+Summary
+Training Guide
+Quiz Generation
+Output Structuring
+Enforces format consistency (bullet points, steps, Q&A)
+Enhances readability for training use cases
 
 ## ⚙️ Key Features
 
